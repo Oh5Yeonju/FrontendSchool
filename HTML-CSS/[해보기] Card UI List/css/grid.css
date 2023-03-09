@@ -1,0 +1,14 @@
+.wrap-grid {
+    display: grid;
+
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 34px 24px;
+
+    width: min(1200px, calc(100% - 60px));
+    margin: auto;
+}
+.item-grid {
+    height: 344px;
+
+    background: pink;
+}
